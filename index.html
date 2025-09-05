@@ -1,0 +1,96 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Digital Portfolio</title>  
+  <link rel="stylesheet" href="style.css" />
+</head>  
+<body>  
+  <!-- Home Section -->  
+  <header>  
+    <h1>Welcome to My Digital Portfolio</h1>  
+    <p>Hi, I am Thilaga</p>  
+    <a href="#about" class="btn">Explore</a>  
+
+    <nav>  
+      <a href="#about">About</a>  
+      <a href="#menu">Menu</a>  
+      <a href="#contact">Contact</a>  
+    </nav>
+  </header>  
+  
+  <!-- About Section -->  
+  <section id="about" class="section">  
+    <h2>About Me</h2>  
+    <p>  
+      I am a BSc Computer Science student passionate about web development and data analytics.   
+      My goal is to build creative projects and become a successful tech professional.  
+    </p>  
+
+    <h2>About Indian Food</h2>  
+    <p>Indian cuisine is known for its bold spices, vibrant colors, and a wide variety of vegetarian and non-vegetarian dishes. From the creamy butter chicken of the north to the tangy dosa of the south, every dish tells a story of culture and tradition.</p>  
+  </section>  
+  
+  <!-- Skills Section -->  
+  <section id="skills" class="section">  
+    <h2>My Skills</h2>  
+    <ul>  
+      <li>HTML – ⭐⭐⭐⭐☆</li>  
+      <li>CSS – ⭐⭐⭐⭐☆</li>  
+      <li>JavaScript – ⭐⭐⭐☆</li>  
+      <li>Python – ⭐⭐⭐☆</li>  
+    </ul>  
+  </section>  
+  
+  <!-- Projects / Menu Section -->  
+  <section id="menu" class="section">  
+    <h2>Our Menu</h2>  
+    <div class="filter-buttons">  
+      <button onclick="filterItems('all')">All</button>  
+      <button onclick="filterItems('veg')">Vegetarian</button>  
+      <button onclick="filterItems('non-veg')">Non-Vegetarian</button>  
+    </div>  
+    <div class="menu-grid">  
+      <div class="card veg">  
+        <img src="https://images.pexels.com/photos/28674541/pexels-photo-28674541.jpeg" alt="Paneer Butter Masala" />  
+        <h3>Paneer Butter Masala</h3>  
+        <p>Paneer Butter Masala is a popular North Indian dish made with paneer (Indian cottage cheese) cooked in a rich, creamy, and mildly spiced tomato-based gravy, flavored with butter and aromatic spices.</p>  
+      </div>  
+      <div class="card non-veg">  
+        <img src="https://images.pexels.com/photos/4439740/pexels-photo-4439740.jpeg" alt="Chicken Biryani" />  
+        <h3>Chicken Biryani</h3>  
+        <p>Chicken Biryani is a flavorful South Asian dish made with marinated chicken, aromatic basmati rice, and a blend of spices, layered and cooked together for a rich, fragrant one-pot meal.</p>  
+      </div>  
+      <div class="card veg">  
+        <img src="https://images.pexels.com/photos/20422129/pexels-photo-20422129.jpeg" alt="Masala Dosa" />  
+        <h3>Masala Dosa</h3>  
+        <p>Masala Dosa is a South Indian dish consisting of a thin, crispy fermented rice and lentil crepe filled with a spiced potato masala, typically served with chutney and sambar.</p>  
+      </div>  
+      <div class="card non-veg">  
+        <img src="https://images.pexels.com/photos/9738981/pexels-photo-9738981.jpeg" alt="Butter Chicken" />  
+        <h3>Butter Chicken</h3>  
+        <p>Butter Chicken is a rich and creamy North Indian curry made with marinated, grilled chicken simmered in a buttery tomato-based sauce, flavored with mild spices.</p>  
+      </div>  
+    </div>  
+  </section>  
+  
+  <!-- Contact Section -->  
+  <section id="contact" class="section contact">  
+    <h2>Contact Me</h2>  
+    <form id="contactForm">  
+      <input type="text" placeholder="Your Name" required /><br /><br />  
+      <input type="email" placeholder="Your Email" required /><br /><br />  
+      <textarea placeholder="Your Message" required></textarea><br /><br />  
+      <button type="submit" class="contact-btn">Send Message</button>  
+    </form>  
+    <p>You can also reach me at: <strong>thilaga@example.com</strong></p>  
+  </section>  
+  
+  <footer>  
+    <p>&copy; 2025 Indian Food Portfolio</p>  
+  </footer>  
+  
+  <script src="script.js"></script>  
+</body>  
+</html>
